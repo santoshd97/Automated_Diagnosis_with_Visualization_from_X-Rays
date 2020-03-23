@@ -9,11 +9,13 @@ Various current state-of-the art models such as DenseNet-121, MobileNet-V2, Ince
 
 <h2>Visualization:</h2>
 For a given test image, we predict all the possible classes out of the 14 classes based on the trained VGG-16 model and visualize the areas most indicative of each of the predicted classes in the form of a heatmap using Grad-CAM technique. Following table shows the predicted probabilities for the given test image:
-![class probabilities](https://github.com/santoshd97/Automated-Diagnosis-with-Visualization-from-X-Rays/blob/master/Class%20probabilities.png)
+
+![image](https://github.com/santoshd97/Automated-Diagnosis-with-Visualization-from-X-Rays/blob/master/Class%20probabilities.png)
 
 The Grad-CAMs are generated only for the positive classes, because we want to visualize the regions where pathologies are present.
 
 
 <h2>Result:</h2>
 5000 test images were used for multi-label classification task. Below table shows overall accuracies of various deep learning models:<br>
+
 ![Accuracy table](https://github.com/santoshd97/Automated-Diagnosis-with-Visualization-from-X-Rays/blob/master/Accuracy.png)
