@@ -8,12 +8,21 @@ ChexPert dataset is used in this project. The dataset has 3 classes for each of 
 Various current state-of-the art models such as DenseNet-121, MobileNet-V2, Inception-V3, VGG-16 were trained on the CheXpert dataset. Common parameters used on all these models for training are learning rate = 0.0002, batch size = 64, optimizer = Adam and since it is a multi-label classification, binary cross entropy is used as the loss function. Moreover, these models were trained on 30,000 training samples and 5000 validation samples.
 
 <h2>Visualization:</h2>
-For a given test image, we predict all the possible classes out of the 14 classes based on the trained VGG-16 model and visualize the areas most indicative of each of the predicted classes in the form of a heatmap using Grad-CAM technique. Following table shows the predicted probabilities for the given test image:
+For a given test image, we predict all the possible classes out of the 14 classes based on the trained VGG-16 model and visualize the areas most indicative of each of the predicted classes in the form of a heatmap using Grad-CAM technique pictured below. 
 
-![image](https://github.com/santoshd97/Automated-Diagnosis-with-Visualization-from-X-Rays/blob/master/Class%20probabilities.png)
+![Grad-CAM](https://github.com/santoshd97/Automated-Diagnosis-with-Visualization-from-X-Rays/blob/master/gradcam.png)
+
+Following table shows the predicted probabilities for the given test image:
+
+![Class probaibilities](https://github.com/santoshd97/Automated-Diagnosis-with-Visualization-from-X-Rays/blob/master/Class%20probabilities.png)
 
 The Grad-CAMs are generated only for the positive classes, because we want to visualize the regions where pathologies are present.
 
+![Pleural Effusion](https://github.com/santoshd97/Automated-Diagnosis-with-Visualization-from-X-Rays/blob/master/Class%20-%20Pleural%20Effusion.png)
+
+![Lung Opacity](https://github.com/santoshd97/Automated-Diagnosis-with-Visualization-from-X-Rays/blob/master/Class%20-%20Lung%20Opacity.png)
+
+![Support Devices](https://github.com/santoshd97/Automated-Diagnosis-with-Visualization-from-X-Rays/blob/master/Class%20-%20Support%20Devices.png)
 
 <h2>Result:</h2>
 5000 test images were used for multi-label classification task. Below table shows overall accuracies of various deep learning models:<br>
