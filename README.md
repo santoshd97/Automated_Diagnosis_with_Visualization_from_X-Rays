@@ -1,5 +1,5 @@
 # Automated-Diagnosis-with-Visualization-from-X-Rays
-In this work, we aimed to assess the performance of various deep learning techniques to automatically detect the presence of 14 different disease classes in chest radiographs and visualize the areas indicating the presence of these diseases in the X-Ray. Detailed decription is included in "project report.pdf" in this repository.
+In this work, we aimed to assess the performance of various deep learning techniques to automatically detect the presence of 14 different disease classes in chest radiographs and visualize the areas indicating the presence of these diseases in the X-Ray. Detailed decription is included in <a href="https://github.com/santoshd97/Automated-Diagnosis-with-Visualization-from-X-Rays/blob/master/Project%20Report.pdf">"project report.pdf"</a> in this repository.
 
 <h2>Dataset:</h2>
 ChexPert dataset is used in this project. The dataset has 3 classes for each of the 14 labels. The competition of this dataset suggested many ways of dealing with the uncertain labels (-1). Since the dataset is collected from a credible source, we prefer replacing the (-1) values with (0) for simplicity. Moreover, as this dataset belongs to a competition, we sampled validation and testing data from the training data and downscaled the images to 128 x 128 pixels.
