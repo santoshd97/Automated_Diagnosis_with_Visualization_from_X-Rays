@@ -1,1 +1,1 @@
-# Automated-Diagnosis-with-Visualization-from-X-Ray-Imaging
+# Automated-Diagnosis-with-Visualization-from-X-Rays
