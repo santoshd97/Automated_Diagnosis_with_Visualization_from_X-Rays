@@ -1,4 +1,4 @@
-# Automated-Diagnosis-with-Visualization-from-X-Rays
+# Automated Diagnosis with Visualization from X-Rays
 In this work, we aimed to assess the performance of various deep learning techniques to automatically detect the presence of 14 different disease classes in chest radiographs and visualize the areas indicating the presence of these diseases in the X-Ray. Detailed decription is included in <a href="https://github.com/santoshd97/Automated-Diagnosis-with-Visualization-from-X-Rays/blob/master/Project%20Report.pdf">"project report.pdf"</a> in this repository.
 
 <h2>Dataset:</h2>
